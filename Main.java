@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        Formula f = new Formula("1+1+1+1");
+        f.prepare();
+        System.out.println(f.res);
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+
     }
 }
